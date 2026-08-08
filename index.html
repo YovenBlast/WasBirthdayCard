@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Washeem 💪</title>
+
+    <!-- Link your external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main Birthday Card -->
+    <div class="card">
+
+        <h1>🎂 Happy Birthday Washeem! 🎂</h1>
+
+        <p class="message">
+            Bro, you lift heavy... but today you lift CAKE! 🍰💪
+            <br>
+            Stay strong, stay massive, and keep breaking PRs!
+        </p>
+
+        <!-- 🏋️ Dumbbell Button -->
+        <div class="dumbbell" onclick="celebrate()">
+
+            <div class="weight left"></div>
+
+            <div class="bar"></div>
+
+            <div class="weight right"></div>
+
+        </div>
+
+        <p>Click the dumbbell 💪</p>
+
+    </div>
+
+
+    <!-- 🎈 Balloon Container -->
+    <div id="balloon-container"></div>
+
+
+    <!-- 🎉 Popup -->
+    <div id="popup" class="popup">
+
+        <div class="popup-content">
+
+            <div class="popup-icon">
+                🎉
+            </div>
+            <div class="popup-icon">
+                🎉
+            </div>
+            
+            <video class="birthday-video" controls autoplay muted loop playsinline>
+                <source src="birthday.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <h2>Happy Birthday Washeem! 🎂</h2>
+            <h2>Happy Birthday Washeem! 🎂</h2>
+
+            <p>
+                Keep lifting heavy and chasing greatness! 💪🔥
+                <br><br>
+                You're built different —
+                <br>
+                today we celebrate YOU! 🥳
+            </p>
+
+            <button onclick="closePopup()">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- 🎵 Birthday Song -->
+    <audio id="birthdaySong" src="birthday.mp3"></audio>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
